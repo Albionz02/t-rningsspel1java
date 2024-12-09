@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #0033ff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(255, 0, 60);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .scores {
+    margin: 20px 0;
+  }
+  
+  .dice-results {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  #playerDice, #computerDice {
+    text-align: left;
+  }
+  
+  #winnerMessage {
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+  }
+  

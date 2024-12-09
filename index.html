@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tärningsspel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tärningsspel</h1>
+    <div class="name-input">
+      <label for="playerName">Skriv in ditt namn:</label>
+      <input type="text" id="playerName" placeholder="Ditt namn">
+      <button id="startGame">Starta spelet</button>
+    </div>
+    <div id="gameArea" class="hidden">
+      <div class="scores">
+        <p id="playerScore">Spelare: 0</p>
+        <p id="computerScore">Dator: 0</p>
+      </div>
+      <div class="dice-results">
+        <div id="playerDice"></div>
+        <div id="computerDice"></div>
+      </div>
+      <button id="rollDice">Kasta tärningarna</button>
+      <p id="roundResult"></p>
+    </div>
+    <div id="winnerMessage" class="hidden"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
